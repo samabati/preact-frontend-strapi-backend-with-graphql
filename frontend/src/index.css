@@ -8,7 +8,7 @@ body {
 h1,h2,h3,h4 {
   font-weight: 500;
 }
-#app {
+.App {
   font-size: 1.2em;
   margin: 10px auto;
   width: 100%;
@@ -26,6 +26,12 @@ a {
   color: #8e2ad6;
   padding-bottom: 10px;
   border-bottom: 2px solid;
+}
+.site-header .categories {
+  text-align: right;
+}
+.site-header .categories a {
+  margin-left: 10px;
 }
 
 /* review list */
