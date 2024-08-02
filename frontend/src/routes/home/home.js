@@ -6,7 +6,7 @@ const Home = () => {
     const {loading, error, data} = useFetch('http://localhost:1337/api/reviews')
 
     if (loading) return <p>Loading...</p>
-    if (error) return <p>An error has occured :(</p>
+    if (error) return <p>An error has occured :( testing123</p>
 
     console.log(data.data);
 
